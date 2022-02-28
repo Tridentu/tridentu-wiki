@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-assets.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-external.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-changelog.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-home.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-pages.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-posts.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-wiki.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-sitemap.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-feeds.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tridentu.github.io/tridentu-wiki/sitemap-indices.xml</loc>
+        <lastmod>2022-02-28</lastmod>
+    </sitemap>
+</sitemapindex>

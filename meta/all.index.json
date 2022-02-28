@@ -1,0 +1,99 @@
+{
+  "ownKey": "index",
+  "childrenPages": {
+    "wiki": {
+      "ownKey": "wiki",
+      "childrenPages": {
+        "userManual": {
+          "ownKey": "userManual",
+          "ownPages": [{
+            "reference": {
+              "path": "wiki",
+              "baseUrl": "https://tridentu.github.io/tridentu-wiki",
+              "fileName": "userManual",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://tridentu.github.io/tridentu-wiki/wiki/userManual"
+            },
+            "description": "The Owner's Manual, but online.",
+            "title": "User Manual",
+            "content": "<html>\n <head><\/head>\n <body><\/body>\n<\/html>\n"
+          }]
+        },
+        "developersGuide": {
+          "ownKey": "developersGuide",
+          "ownPages": [{
+            "reference": {
+              "path": "wiki",
+              "baseUrl": "https://tridentu.github.io/tridentu-wiki",
+              "fileName": "developersGuide",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://tridentu.github.io/tridentu-wiki/wiki/developersGuide"
+            },
+            "description": "",
+            "title": "Developers Guide",
+            "content": "<html>\n <head><\/head>\n <body><\/body>\n<\/html>\n"
+          }]
+        }
+      },
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "https://tridentu.github.io/tridentu-wiki",
+          "fileName": "wiki",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://tridentu.github.io/tridentu-wiki/wiki"
+        },
+        "description": "",
+        "title": "Wiki",
+        "content": ""
+      }]
+    },
+    "readme": {
+      "ownKey": "readme",
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "https://tridentu.github.io/tridentu-wiki",
+          "fileName": "readme",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://tridentu.github.io/tridentu-wiki/readme"
+        },
+        "description": "",
+        "title": "Readme",
+        "content": ""
+      }]
+    }
+  },
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://tridentu.github.io/tridentu-wiki",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://tridentu.github.io/tridentu-wiki"
+      },
+      "description": "",
+      "title": "Home",
+      "content": "<p>Welcome to the Tridentu-R Linux wiki!<\/p>\n"
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://tridentu.github.io/tridentu-wiki",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "https://tridentu.github.io/tridentu-wiki/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}

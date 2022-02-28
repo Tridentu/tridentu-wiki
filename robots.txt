@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /
+
+
+
+Sitemap: https://tridentu.github.io/tridentu-wiki/sitemap.xml
+
