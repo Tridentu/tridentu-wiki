@@ -8,3 +8,8 @@ theme:
        - footer.prev_next
        - revision.date
        - revision.history
+plugins:
+  search: {
+    lang: en
+  }
+  git-revision-date: {}
