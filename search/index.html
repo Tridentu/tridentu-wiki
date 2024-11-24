@@ -8,28 +8,28 @@
     <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.6.0">
      
      
-    <link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
-<link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
-<link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
-<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png" />
 
 
     
  
-<title>Caravel-PM - Tridentu Wiki</title>
+<title>Search - Tridentu Wiki</title>
 
 
-<link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
-<link href="../../css/fontawesome/css/solid.min.css" rel="stylesheet">
-<link href="../../css/normalize.css" rel="stylesheet">
-<link href="../../css/terminal.css" rel="stylesheet">
-<link href="../../css/theme.css" rel="stylesheet">
-<link href="../../css/theme.tile_grid.css" rel="stylesheet">
-<link href="../../css/theme.footer.css" rel="stylesheet">
+<link href="../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../css/normalize.css" rel="stylesheet">
+<link href="../css/terminal.css" rel="stylesheet">
+<link href="../css/theme.css" rel="stylesheet">
+<link href="../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../css/theme.footer.css" rel="stylesheet">
 <!-- default color palette -->
-<link href="../../css/palettes/default.css" rel="stylesheet">
+<link href="../css/palettes/default.css" rel="stylesheet">
 
 <!-- page layout -->
 <style>
@@ -60,20 +60,20 @@
 
     
     <!-- search css support -->
-<link href="../../css/search/bootstrap-modal.css" rel="stylesheet">
+<link href="../css/search/bootstrap-modal.css" rel="stylesheet">
 <!-- search scripts -->
 <script>
-    var base_url = "../..",
+    var base_url = "..",
     shortcuts = "{}";
 </script>
-<script src="../../js/jquery/jquery-1.10.1.min.js" defer></script>
-<script src="../../js/bootstrap/bootstrap.min.js" defer></script>
-<script src="../../js/mkdocs/base.js" defer></script>
+<script src="../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../js/mkdocs/base.js" defer></script>
     
     
     
     
-    <script src="../../search/main.js"></script>
+    <script src="main.js"></script>
     
 
     
@@ -91,7 +91,7 @@
                 
                 
                 <li property="itemListElement" typeof="ListItem">
-                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                    <a href=".." class="menu-item " property="item" typeof="WebPage">
                         <span property="name">Home</span>
                     </a>
                     <meta property="position" content="0">
@@ -99,7 +99,7 @@
                 
                 
                 <li property="itemListElement" typeof="ListItem">
-                    <a href="../../about/" class="menu-item " property="item" typeof="WebPage">
+                    <a href="../about/" class="menu-item " property="item" typeof="WebPage">
                         <span property="name">About</span>
                     </a>
                     <meta property="position" content="1">
@@ -139,7 +139,7 @@
         
             <a class="
 
-    terminal-mkdocs-side-nav-item" href="../..">Home</a>
+    terminal-mkdocs-side-nav-item" href="..">Home</a>
         
     
     
@@ -158,7 +158,7 @@
         
             <a class="
 
-    terminal-mkdocs-side-nav-item" href="../../about/">About</a>
+    terminal-mkdocs-side-nav-item" href="../about/">About</a>
         
     
     
@@ -167,12 +167,6 @@
         
     </ul>
   
-</nav><hr>
-<nav>
-    <ul>
-        <li><a href="#caravel-pm">Caravel-PM</a></li>
-        <li><a href="#what-is-caravel-pm">What is Caravel PM?</a></li><li><a href="#how-does-it-work">How does it work?</a></li><li><a href="#how-do-i-use-caravel">How do I use Caravel?</a></li>
-    </ul>
 </nav>
 </aside>
             <main id="terminal-mkdocs-main-content">
@@ -183,26 +177,8 @@
     
 
 <section id="mkdocs-terminal-content">
-    <h1 id="caravel-pm">Caravel-PM</h1>
-<h2 id="what-is-caravel-pm">What is Caravel PM?</h2>
-<p>Caravel PM is a package manager made specifically for Tridentu 2. It aims to package optional programs and libraries instead of going all in.</p>
-<h2 id="how-does-it-work">How does it work?</h2>
-<p>Caravel-PM uses the xz format via libarchive to create the package. The package is also filled with a manifest and  custom uninstaller/installer scripts (Lua) that the user provides.</p>
-<h2 id="how-do-i-use-caravel">How do I use Caravel?</h2>
-<h3 id="uninstalling-packages">(Un)installing Packages</h3>
-<p>to install packages, run the following command:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>caravel-pm<span class="w"> </span>install-package<span class="w"> </span><span class="o">[</span>package-name<span class="o">]</span>
-</span></code></pre></div>
-<p>replace [package-name] with the name of the package you want to install (E.g. fish-3.7.1).</p>
-<p>To uninstall packages, run:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo<span class="w"> </span>caravel-pm<span class="w"> </span>uninstall-package<span class="w"> </span><span class="o">[</span>package-name<span class="o">]</span>
-</span></code></pre></div>
-<p>This time, replace [package-name] with the name of the package you want to uninstall.</p>
-<h3 id="finding-packages">Finding Packages</h3>
-<p>To find a package, run this command:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>caravel-pm<span class="w"> </span>find-packages<span class="w"> </span><span class="o">[</span>term<span class="o">]</span>
-</span></code></pre></div>
-<p>This time, replace [term] with the name of the program or package you want to find.</p>
+    <div id="listing-extract-search"></div>
+<script src="/listing-search.js" async></script>
 </section>
 
 <section id="mkdocs-terminal-after-content">

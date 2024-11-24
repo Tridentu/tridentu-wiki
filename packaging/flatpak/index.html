@@ -18,7 +18,7 @@
 
     
  
-<title>Caravel-PM - Tridentu Wiki</title>
+<title>Flatpak - Tridentu Wiki</title>
 
 
 <link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
@@ -170,8 +170,8 @@
 </nav><hr>
 <nav>
     <ul>
-        <li><a href="#caravel-pm">Caravel-PM</a></li>
-        <li><a href="#what-is-caravel-pm">What is Caravel PM?</a></li><li><a href="#how-does-it-work">How does it work?</a></li><li><a href="#how-do-i-use-caravel">How do I use Caravel?</a></li>
+        <li><a href="#flatpak">Flatpak</a></li>
+        <li><a href="#use">Use</a></li>
     </ul>
 </nav>
 </aside>
@@ -183,26 +183,12 @@
     
 
 <section id="mkdocs-terminal-content">
-    <h1 id="caravel-pm">Caravel-PM</h1>
-<h2 id="what-is-caravel-pm">What is Caravel PM?</h2>
-<p>Caravel PM is a package manager made specifically for Tridentu 2. It aims to package optional programs and libraries instead of going all in.</p>
-<h2 id="how-does-it-work">How does it work?</h2>
-<p>Caravel-PM uses the xz format via libarchive to create the package. The package is also filled with a manifest and  custom uninstaller/installer scripts (Lua) that the user provides.</p>
-<h2 id="how-do-i-use-caravel">How do I use Caravel?</h2>
-<h3 id="uninstalling-packages">(Un)installing Packages</h3>
-<p>to install packages, run the following command:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>caravel-pm<span class="w"> </span>install-package<span class="w"> </span><span class="o">[</span>package-name<span class="o">]</span>
+    <h1 id="flatpak">Flatpak</h1>
+<p>Flatpak is included in Tridentu 2 out of the box. Also, flathub is the default repository on <strong>ALL Tridentu 2 systems</strong>.</p>
+<h2 id="use">Use</h2>
+<p>To install packages (E.g. firefox), run:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>flatpak<span class="w"> </span>install<span class="w"> </span>org.mozilla.Firefox
 </span></code></pre></div>
-<p>replace [package-name] with the name of the package you want to install (E.g. fish-3.7.1).</p>
-<p>To uninstall packages, run:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo<span class="w"> </span>caravel-pm<span class="w"> </span>uninstall-package<span class="w"> </span><span class="o">[</span>package-name<span class="o">]</span>
-</span></code></pre></div>
-<p>This time, replace [package-name] with the name of the package you want to uninstall.</p>
-<h3 id="finding-packages">Finding Packages</h3>
-<p>To find a package, run this command:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>caravel-pm<span class="w"> </span>find-packages<span class="w"> </span><span class="o">[</span>term<span class="o">]</span>
-</span></code></pre></div>
-<p>This time, replace [term] with the name of the program or package you want to find.</p>
 </section>
 
 <section id="mkdocs-terminal-after-content">

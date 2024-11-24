@@ -1,0 +1,30 @@
+[
+  {
+    "page_name": "Flatpak",
+    "page_url": "packaging/flatpak/",
+    "text": "flatpak install org.mozilla.Firefox\n",
+    "html": "<pre><span></span><code><span id=\"__span-0-1\"><a href=\"#__codelineno-0-1\" id=\"__codelineno-0-1\" name=\"__codelineno-0-1\"></a>flatpak<span class=\"w\"> </span>install<span class=\"w\"> </span>org.mozilla.Firefox\n</span></code></pre>",
+    "language": "bash"
+  },
+  {
+    "page_name": "Caravel-PM",
+    "page_url": "packaging/caravel-pm/",
+    "text": "sudo caravel-pm install-package [package-name]\n",
+    "html": "<pre><span></span><code><span id=\"__span-0-1\"><a href=\"#__codelineno-0-1\" id=\"__codelineno-0-1\" name=\"__codelineno-0-1\"></a>sudo<span class=\"w\"> </span>caravel-pm<span class=\"w\"> </span>install-package<span class=\"w\"> </span><span class=\"o\">[</span>package-name<span class=\"o\">]</span>\n</span></code></pre>",
+    "language": "bash"
+  },
+  {
+    "page_name": "Caravel-PM",
+    "page_url": "packaging/caravel-pm/",
+    "text": "sudo caravel-pm uninstall-package [package-name]\n",
+    "html": "<pre><span></span><code><span id=\"__span-1-1\"><a href=\"#__codelineno-1-1\" id=\"__codelineno-1-1\" name=\"__codelineno-1-1\"></a>sudo<span class=\"w\"> </span>caravel-pm<span class=\"w\"> </span>uninstall-package<span class=\"w\"> </span><span class=\"o\">[</span>package-name<span class=\"o\">]</span>\n</span></code></pre>",
+    "language": "bash"
+  },
+  {
+    "page_name": "Caravel-PM",
+    "page_url": "packaging/caravel-pm/",
+    "text": "caravel-pm find-packages [term]\n",
+    "html": "<pre><span></span><code><span id=\"__span-2-1\"><a href=\"#__codelineno-2-1\" id=\"__codelineno-2-1\" name=\"__codelineno-2-1\"></a>caravel-pm<span class=\"w\"> </span>find-packages<span class=\"w\"> </span><span class=\"o\">[</span>term<span class=\"o\">]</span>\n</span></code></pre>",
+    "language": "bash"
+  }
+]
