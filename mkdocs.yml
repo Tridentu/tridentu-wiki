@@ -1,0 +1,10 @@
+site_name: Tridentu Wiki
+nav:
+   - Home: index.md
+   - About: about.md
+theme:
+     name: terminal
+     features:
+       - footer.prev_next
+       - revision.date
+       - revision.history
