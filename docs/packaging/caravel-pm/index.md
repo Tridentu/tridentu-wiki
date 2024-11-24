@@ -13,18 +13,32 @@ Caravel-PM uses the xz format via libarchive to create the package. The package 
 
 ## How do I use Caravel?
 
+### (Un)installing Packages
+
 to install packages, run the following command:
 
-```
+``` bash
 sudo caravel-pm install-package [package-name]
 ```
 
-replace [package-name] with the name of the package you want to install.
+replace [package-name] with the name of the package you want to install (E.g. fish-3.7.1).
+
 
 To uninstall packages, run:
 
-```
+``` bash
 sudo caravel-pm uninstall-package [package-name]
 ```
 
-Again, replace [package-name] with the name of the package you want to uninstall.
+This time, replace [package-name] with the name of the package you want to uninstall.
+
+
+### Finding Packages
+
+To find a package, run this command:
+
+``` bash
+caravel-pm find-packages [term]
+```
+
+This time, replace [term] with the name of the program or package you want to find.

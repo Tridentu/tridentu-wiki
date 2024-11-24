@@ -18,7 +18,7 @@
 
     
  
-<title>About - Tridentu Wiki</title>
+<title>Packaging - Tridentu Wiki</title>
 
 
 <link href="../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
@@ -99,7 +99,7 @@
                 
                 
                 <li property="itemListElement" typeof="ListItem">
-                    <a href="./" class="menu-item active" property="item" typeof="WebPage">
+                    <a href="../about/" class="menu-item " property="item" typeof="WebPage">
                         <span property="name">About</span>
                     </a>
                     <meta property="position" content="1">
@@ -155,9 +155,11 @@
     
     
         
-        <span class="
+        
+            <a class="
 
-    terminal-mkdocs-side-nav-item--active">About</span>
+    terminal-mkdocs-side-nav-item" href="../about/">About</a>
+        
     
     
     
@@ -168,9 +170,7 @@
 </nav><hr>
 <nav>
     <ul>
-        <li><a href="#intro">Intro</a></li>
-        <li><a href="#who-could-use-it">Who could use it?</a></li>
-        <li><a href="#sections">Sections</a></li>
+        <li><a href="#packaging-docs">Packaging Docs</a></li>
         
     </ul>
 </nav>
@@ -183,13 +183,13 @@
     
 
 <section id="mkdocs-terminal-content">
-    <h1 id="intro">Intro</h1>
-<p>Every distro worth its salt has a wiki, right? Well, here's another one. Tridentu 2's wiki is just like Gentoo's in practice - for anyone who uses <em>or</em> develops for Tridentu 2 or later.</p>
-<h1 id="who-could-use-it">Who could use it?</h1>
-<p>The target audience for Tridentu 2 are those who want a stable distro that isn't based on Debian or Ubuntu. Tridentu 2 is based on LFS. As a result, Flatpak is used
-for obtaining most applications.</p>
-<h1 id="sections">Sections</h1>
-<p>This wiki is divided into several sections. As a result, you will see several different topics under a similar umbrella. Each umbrella has a main page, and the several different subpages. Topics can be one page if they are simple enough.</p>
+    <h1 id="packaging-docs">Packaging Docs</h1>
+<p>There are 2 forms of packaging on Tridentu 2:</p>
+<ol>
+<li>Caravel PM</li>
+<li>Flatpak</li>
+</ol>
+<p>Caravel is a native package manager, while Flatpak is distro-independent.</p>
 </section>
 
 <section id="mkdocs-terminal-after-content">
@@ -200,7 +200,7 @@ for obtaining most applications.</p>
 <aside>
     <p>
         <small>
-            <i>Page last updated 2024-11-23. </i>
+            <i>Page last updated 2024-11-24. </i>
         </small>
     </p>
 </aside>
@@ -211,12 +211,6 @@ for obtaining most applications.</p>
     <div class="terminal-mkdocs-footer-grid">
         <div id="terminal-mkdocs-footer-copyright-info">
              Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
-        </div>
-        <div id="terminal-mkdocs-footer-prev-next">
-            <nav class="btn-group">
-                <a href=".." title="Home">Previous</a>
-                
-            </nav>
         </div>
     </div>
 </footer>

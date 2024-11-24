@@ -8,8 +8,22 @@ theme:
        - footer.prev_next
        - revision.date
        - revision.history
+       - content.code.copy
 plugins:
   search: {
     lang: en
   }
   git-revision-date: {}
+  extract_listings: {
+     listings_file: "search.md",
+     javascript_search_file: "listing-search.js",
+     placeholder: PLACEHOLDER_LISTINGS_PLUGIN
+  }
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
